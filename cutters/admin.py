@@ -5,4 +5,4 @@ from job_no.models import JobNo
 
 
 admin.site.register(Cutter)
-admin.site.register(JobNo)
+#admin.site.register(JobNo)

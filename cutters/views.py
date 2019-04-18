@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def cutter_list(request):
+    return render(request, 'cutters/cutter_list.html', {})
+    
